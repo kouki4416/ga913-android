@@ -45,9 +45,14 @@ public object AnalyticsEvent {
         public data object Info : Screen("Info", false)
 
         /**
-         * テストログ
+         * テスト画面1
          */
-        public data object Test : Screen("Test", true)
+        public data object Test1 : Screen("Test1", true)
+
+        /**
+         * テスト画面2
+         */
+        public data object Test2 : Screen("Test2", true)
     }
 
     /**
@@ -151,8 +156,13 @@ public object AnalyticsEvent {
         }
 
         /**
-         * テストログ
+         * テスト画面1
          */
-        public object Test
+        public object Test1
+
+        /**
+         * テスト画面2
+         */
+        public object Test2
     }
 }
