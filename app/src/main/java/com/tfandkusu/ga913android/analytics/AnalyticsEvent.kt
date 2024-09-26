@@ -43,6 +43,11 @@ public object AnalyticsEvent {
          * 情報画面
          */
         public data object Info : Screen("Info", false)
+
+        /**
+         * テストログ
+         */
+        public data object Test : Screen("Test", true)
     }
 
     /**
@@ -88,7 +93,7 @@ public object AnalyticsEvent {
          */
         public object LandmarkDetail {
             /**
-             * いいねを付ける
+             * いいねを付けるボタン
              */
             public data class FavoriteOn(
                 /**
@@ -144,5 +149,10 @@ public object AnalyticsEvent {
              */
             public object PrivacyPolicy : Action("InfoPrivacyPolicy", emptyMap(), false)
         }
+
+        /**
+         * テストログ
+         */
+        public object Test
     }
 }
