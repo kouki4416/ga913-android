@@ -53,6 +53,11 @@ public object AnalyticsEvent {
          * テスト画面2
          */
         public data object Test2 : Screen("Test2", true)
+
+        /**
+         * freeeホーム画面
+         */
+        public data object FreeeHomeScreen : Screen("FreeeHomeScreen", true)
     }
 
     /**
@@ -164,5 +169,10 @@ public object AnalyticsEvent {
          * テスト画面2
          */
         public object Test2
+
+        /**
+         * freeeホーム画面
+         */
+        public object FreeeHomeScreen
     }
 }
